@@ -1,5 +1,13 @@
 # Covid-19-Detection
 
+
+# Example
+	
+
+	'''
+		python3 run.py --model_name tf_model --backbone vgg16 --dataset x-ray 
+	'''
+
 Dataset:
 
 
