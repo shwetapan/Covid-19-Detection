@@ -1,5 +1,5 @@
 import os
-from modules.tf_model import run
+from modules.tf_model import TF_Model
 
 
 
@@ -20,5 +20,6 @@ class Model:
 		return 0
 
 	def train(self):
-		run(self.name, self._backbone, self._dataset)
+		model = TF_Model()
+		model.run(self.name, self._backbone, self._dataset)
 
